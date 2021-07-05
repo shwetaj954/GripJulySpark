@@ -1,0 +1,123 @@
+
+.h{
+    height:100vh;
+    background-image:url('../img/cover3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+
+}
+html{
+    margin:0;
+    padding: 0%;
+}
+body{
+    margin:0;
+    padding:0%;
+       
+  
+}
+
+.rs{
+   font-size: 2vw;
+}
+.car{
+    margin-top:25%;margin-left:-5%;float:left;height:40%;width:60%;
+    position: relative;
+    animation-name: carex;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes carex {
+    0%   { left:0px; top:0px;}
+    25%  { left:300px; top:0px;}
+    50%  { left:20px; top:0px;}
+    75%  { left:20px; top:0px;}
+    100% { left:-20px; top:0px;}
+  }
+.cr{
+    background: rgba(0,0,0,0.1);
+    
+    height:200px;
+    color:white;
+    border:solid;
+    border-color:white;
+    box-shadow: 10px 2px 20px 1px #888888;
+}
+.cr:hover{
+    background: rgba(0,0,0,0.5);
+    color:white;
+    border:solid;
+    border-color:aliceblue;
+    box-shadow: 10px 2px 1px 1px #888888;
+    
+}
+.sd{
+    background-image:url('../img/cover3.jpg');
+    margin:0%;
+
+}
+.profile{
+    margin-top: -40%;
+    
+   
+}
+.profile1{
+    margin-top: -35%;
+   
+}
+.btu{
+    color:white;
+    background-color: blue;
+    border:solid;
+    border-color: white;
+}
+.btu:hover{
+    color:white;
+    background-color: red;
+    border-color: blue;
+}
+.trp{
+    color:white;
+
+}
+.ford{
+    border:solid;
+    border-color:blue;
+}
+.ford:hover{
+    border-color:red;
+}
+.tmp
+{
+    background-color: white;
+    margin:0;
+    color:blue;
+    text-shadow: 3px 2px 1px black;
+}
+.tmp:hover{
+    color: red;
+}
+.tmp1{
+    color:blue;
+    background-color: white;
+    font-weight: bold;
+}
+.tmp2{
+    border:solid;
+    font-weight: bold;
+    border-color:white;
+}
+.tmp2:hover{
+color:white;
+background-color: red;
+}
+.bgt{
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+.hln{
+    font-size: 3vw;
+    
+}
