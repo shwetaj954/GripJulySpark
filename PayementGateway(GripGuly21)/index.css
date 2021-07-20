@@ -1,0 +1,50 @@
+.donate-button{
+    background-color: red;
+    color:white;
+}
+.donate-button:hover{
+    background-color:white;
+    color:red;
+}
+.donatebig{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('https://www.pngall.com/wp-content/uploads/2018/03/Childhood-PNG-Images.png');
+    width: 100%;
+    background-attachment: inherit;
+    background-size: cover;
+    margin: 0;
+}
+.donat-cover{
+    margin-left:5%;
+    margin-right: 5%;
+}
+.payment-card{
+    margin-left:1%;
+    margin-right: 1%;
+    margin-top: 20%;
+}
+.payment-big{
+    background-color:rgba(red, green, blue, 0.5);
+    border:solid;
+    border-color:red;
+    box-shadow: 2px 2px 5px 10px white;
+}
+.donate-check{
+     background-color: red;
+     border: solid;
+     border-color:white;
+     color: white;
+}
+.donate-text{
+    background-color: white;
+     border: solid;
+     border-color:red;
+     color:red;
+}
+.donate-check:hover{
+     background-color: white;
+     border: solid;
+     border-color:red;
+     color:red;
+}
